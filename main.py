@@ -1,6 +1,6 @@
 #New code
 
-#Defining the fucntions:
+#Defining the functions:
 
 def calcular_imc (peso, altura):
     imc = peso/(altura*altura)
