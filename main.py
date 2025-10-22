@@ -20,11 +20,15 @@ def analise_imc (imc):
     else:
         print("Classificação: Obesidade nível três, procure um médico imediatamente.")
 
+#Making use of said functions
 
 peso = float(input("Informe o seu peso atual:"))
 altura = float(input("Agora informe sua altura, em metros:"))
 
 resultado_imc = calcular_imc(peso, altura)
+
+#Results
+
 print("---------------------------------------------------------")
 print("O resultado do IMC para estes valores é: ", resultado_imc)
 print("---------------------------------------------------------")
